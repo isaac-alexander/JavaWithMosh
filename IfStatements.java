@@ -1,4 +1,4 @@
-public class ControlFlowStatements {
+public class IfStatements {
     public static void main(String[] args) {
         int temp = 32;
         if (temp > 30) {
@@ -13,10 +13,10 @@ public class ControlFlowStatements {
         }
 
 
-        // Simplifying If Statements Ternary Operator?
+        // Simplifying If Statements
         int income = 120_000;
-        String className = income > 100_000 ? "First" : "Economy";
-        
+        boolean hasHighIncome = income > 100_000;
+
     }
 }
 
