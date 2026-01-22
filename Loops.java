@@ -28,5 +28,17 @@ public class Loops {
             input = scanner.next().toLowerCase();
             System.out.println(input);
         } while (!input.equals("quit"));
+
+        // Break and Continue
+        while (true) {
+            System.out.print("Input: ");
+            input = scanner.next().toLowerCase();
+            if (input.equals("pass"))
+                continue;
+            if (input.equals("quit"))
+                break;
+                System.out.println(input);
+        }
+
     }
 }
